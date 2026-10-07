@@ -1,0 +1,18 @@
+ساخت APK در GitHub
+==================
+
+1) یک Repository جدید در GitHub بسازید.
+2) تمام محتویات این پوشه را در ریشه Repository آپلود کنید.
+   مهم: پوشه .github نیز باید آپلود شود.
+3) وارد تب Actions شوید.
+4) Workflow با نام Build Installable APK را باز کنید.
+5) Run workflow را بزنید و branch اصلی را انتخاب کنید.
+6) بعد از سبز شدن Build، پایین صفحه در بخش Artifacts روی
+   Madreseyar-Student-1.3.0-APK
+   بزنید.
+7) فایل ZIP خروجی GitHub را دانلود کنید. داخل آن فایل
+   Madreseyar-Student-1.3.0.apk
+   قرار دارد و قابل نصب روی Android است.
+
+این Workflow برای ساخت سریع، APK نوع Debug امضاشده با کلید Debug اندروید می‌سازد؛
+برای انتشار رسمی فروشگاهی از workflow جداگانه Build Signed Release APK و Secrets امضای Release استفاده کنید.

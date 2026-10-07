@@ -1,0 +1,2 @@
+# Copy to local.properties and set your Android SDK path if building from CLI.
+# sdk.dir=/home/user/Android/Sdk

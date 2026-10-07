@@ -1,0 +1,6 @@
+<resources>
+    <color name="brand_primary">#3156D3</color>
+    <color name="brand_secondary">#12A594</color>
+    <color name="brand_background">#F6F8FC</color>
+    <color name="launcher_background">#075CE8</color>
+</resources>

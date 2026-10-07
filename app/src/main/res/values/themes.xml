@@ -1,0 +1,15 @@
+<resources>
+    <style name="Theme.MadreseyarStudent" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:statusBarColor">#F6F8FC</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">#F6F8FC</item>
+    </style>
+    <style name="Theme.MadreseyarStudent.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#075CE8</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.MadreseyarStudent</item>
+    </style>
+</resources>

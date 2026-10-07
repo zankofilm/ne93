@@ -1,0 +1,13 @@
+مدرسه‌یار دانش‌آموز - GitHub APK Builder 1.3.0
+
+1) ZIP را Extract کنید.
+2) همه فایل‌ها و پوشه‌ها، مخصوصاً پوشه مخفی .github را داخل ریشه Repository آپلود/Push کنید.
+3) شاخه main را Commit کنید.
+4) GitHub > Actions > Build Android APK را باز کنید.
+5) Run workflow را بزنید یا با هر Push صبر کنید Build تمام شود.
+6) از بخش Artifacts این مورد را دانلود کنید:
+   Madreseyar-Student-APK-1.3.0-ProductionReady
+7) داخل Artifact فایل نصب وجود دارد:
+   Madreseyar-Student-1.3.0-production-debug.apk
+
+برای انتشار مستقیم در Releases یک Tag مثل v1.3.0 بسازید.

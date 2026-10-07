@@ -1,0 +1,25 @@
+Madreseyar Student Android 1.3.0 — Production Ready Offline-First
+
+Implemented:
+- versionName 1.3.0 / versionCode 6
+- Backpack adaptive launcher icon + splash screen
+- Secure exam FLAG_SECURE protection
+- Server expiresAt-aware exam timer + automatic finalization
+- Encrypted exam-background incident Outbox
+- Android notification channel and new-dashboard notification delivery
+- Five-item primary bottom navigation
+- Jalali/Persian UI dates
+- Offline cache stats + safe cleanup
+- App Update Checker contract
+- Signed Release GitHub Actions workflow
+- Existing Offline-First exam and homework Outboxes preserved
+
+Verification available in this package:
+- Bash project sanity checks
+- Backend 72.35-p3 API contract check
+- Android XML parsing
+- GitHub Actions YAML parsing
+- Kotlin parser pass (Android symbols require Android SDK to resolve)
+
+APK build note:
+This environment does not include the complete Android SDK/Gradle toolchain. GitHub Actions performs the real :app:assembleDebug or signed :app:assembleRelease build.
